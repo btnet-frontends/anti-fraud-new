@@ -29,8 +29,15 @@ const props = defineProps({
                 <div
                   v-for="organizer in group.list"
                   :key="organizer.index"
-                  :class="organizer.className || 'w-1/2 sm:w-1/3 lg:w-1/4 p-2 sm:p-4'"
+                  :class="organizer.className || 'relative w-1/2 sm:w-1/3 lg:w-1/4 p-2 sm:p-4'"
                 >
+                  <a 
+                    v-if="organizer.title === '永豐金控銀行'"
+                    href="https://bank.sinopac.com/sinopacBT/webevents/anti-fraudbee/index.html"
+                    target="_blank"
+                    class="z-10 absolute top-0 bottom-0 my-auto right-0 w-[30%] h-[50%] scale-[1.2] sm:scale-[1.2] lg:scale-[1.4]"
+                  >
+                  </a>
                   <a
                     v-if="organizer.href"
                     :class="organizer.contentClass || 'relative block pb-[34%]'"
