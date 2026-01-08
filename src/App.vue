@@ -36,7 +36,7 @@ const { isDev } = useClientConfig()
 const imgUrl = new URL('./assets/images/background.png', import.meta.url)
 
 const setBanner = computed(() => {
-  const image = `/images/banner${isMobile.value ? '_m' : ''}.jpg?v=20240611`
+  const image = `/images/banner${isMobile.value ? '_m' : ''}.jpg?v=${Date.now()}`
   return `${isDev ? '' : '.'}${image}`
 })
 
