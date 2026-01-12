@@ -149,7 +149,8 @@ const chartData = [
         trigger: 'item',
         formatter: (par) => {
           const { name, value } = par.data
-          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          const formattedName = name.length > 11 ? `${name.slice(0, 11)}\n${name.slice(11)}` : name
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${formattedName}</div>`
           return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
         }
       },
@@ -169,8 +170,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',

@@ -54,8 +54,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -106,8 +105,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -160,8 +158,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -212,8 +209,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -266,8 +262,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -318,8 +313,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -372,8 +366,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -424,8 +417,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -478,8 +470,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -530,8 +521,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -584,8 +574,7 @@ const chartData = [
       series: [
         {
           type: 'pie',
-          radius: ['35%', '60%'],
-          center: ['50%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
