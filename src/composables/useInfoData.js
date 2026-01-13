@@ -23,11 +23,11 @@ const menu = ref([
     "title": "防詐大調查",
     "url": `${import.meta.env.BASE_URL}#/report`,
   },
-  {
-    "title": "防詐守門員",
-    "url": "#card",
-    "isAnchor": true,
-  },
+  // {
+  //   "title": "防詐守門員",
+  //   "url": "#card",
+  //   "isAnchor": true,
+  // },
   {
     "title": "防詐陣線",
     "url": "#corporate-sponsor",
