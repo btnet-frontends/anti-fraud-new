@@ -56,7 +56,7 @@
 
         <div id="media" class="content-wrapper" style="background: none; width: 100%;">
           <Title>防詐影片</Title>
-          <BtYouTubePlayer class="rounded sm:rounded-xl overflow-hidden" videoId="GtvD1ljhU5g" />
+          <BtYouTubePlayer class="rounded sm:rounded-xl overflow-hidden" videoId="7Td3607lldw" :playerVars="{ start: 28 }" />
         </div>
       </div>
     </div>
